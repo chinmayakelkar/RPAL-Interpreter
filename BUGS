@@ -1,0 +1,5 @@
+This is a list of known bugs in this RPAL interpreter.
+
+1.  let A = 1 in Print (+ A 1)
+    The wrong tree is built, instead of disallowing this syntactically.
+2.  The interpreter does not print correct output for sample program tiny.1
